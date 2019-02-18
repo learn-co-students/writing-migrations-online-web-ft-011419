@@ -17,4 +17,6 @@ def drop_db
   DB.tables.each do |table|
     DB.execute("DROP TABLE #{table}")
   end
-end
+end  
+
+
